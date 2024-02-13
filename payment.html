@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://st.depositphotos.com/65642432/55256/v/600/depositphotos_552565418-stock-illustration-wing-illustration-logo-vector-design.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            background-color: #8b8989;
+        }
+
+        .top {
+            margin-top: 50px;
+            background-color: #fff;
+            border: 1px solid rgb(132, 127, 127);
+            border-radius: 7px;
+            padding: 20px;
+        }
+
+        div,
+        form,
+        input {
+            font-size: 16px;
+            color: rgb(16, 16, 16);
+        }
+
+
+
+
+        .details div input {
+            width: 200px;
+        }
+
+        input {
+            padding: 5px;
+            margin-bottom: 30px;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #8b8989;
+        }
+
+        input::placeholder {
+            color: #070606;
+        }
+
+
+        button {
+            width: 100%;
+            padding: 10px 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: none;
+            background: rgb(4, 130, 4);
+            font-size: 15px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        button:hover {
+            background: rgb(14, 171, 14);
+        }
+
+        .logo img {
+            padding-left: 80px;
+            margin-bottom: 30px;
+        }
+
+
+
+        input ::placeholder {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top">
+
+        <form action="">
+            <center>
+                <h2>PAYMENT</h2>
+            </center>
+            <div class="logo">
+                <img src="https://i.imgur.com/sB4jftM.png" alt="visa" width="80">
+                <img src="https://i.imgur.com/yK7EDD1.png" alt="paypal" width="80">
+            </div>
+
+            <div class="details">
+                <div><input type="text" name="chname" placeholder="Cardholder Name" required></div>
+                <div><input type="text" name="number" placeholder="Card Number" required></div>
+                <div><input type="text" name="exdate" placeholder="Expiration Date" required>
+                    <input type="text" name="cvv" placeholder="CVV" required>
+                </div>
+            </div>
+
+            <div><button>Purchase</button></div>
+    </div>
+
+
+    </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://st.depositphotos.com/65642432/55256/v/600/depositphotos_552565418-stock-illustration-wing-illustration-logo-vector-design.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+</html>
+
+
+<style>
+    body {
+        min-height: 100%;
+    }
+
+    body,
+    div,
+    form,
+    input {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        color: white;
+    }
+
+
+    h2 {
+        font-weight: 400;
+        margin-right: 8px;
+    }
+
+    .main-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 50px;
+        background: white;
+    }
+
+
+    form {
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        padding: 5px;
+        margin-bottom: 30px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #cfcfcf;
+    }
+
+    input::placeholder {
+        color: #eee;
+    }
+
+
+
+    .checkbox input {
+        margin: 0 10px 0 0;
+
+    }
+
+    .checkbox a {
+        color: #26a9e0;
+        text-decoration: none;
+    }
+
+    .checkbox a:hover {
+        color: #70e9f4;
+    }
+
+
+    button {
+        width: 100%;
+        padding: 10px 5px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: none;
+        background: #26a9e0;
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    button:hover {
+        background: #85d6de;
+    }
+</style>
+</head>
+
+<body>
+    <div class="main-block">
+
+        <form action="">
+            <div class="title">
+
+                <h2>Login Your Account</h2>
+            </div>
+            <div class="info">
+                <input class="fname" type="text" name="name" placeholder="Full Name" required>
+                <input type="text" name="name" placeholder="Email" required>
+                <input type="text" name="name" placeholder="Phone number" required>
+                <input type="password" name="name" placeholder="Password" required>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="checkbox" required><span>I agree to the <a href="">Privacy
+                        Policy.</a></span>
+            </div>
+            <button>Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
